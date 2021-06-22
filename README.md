@@ -41,8 +41,8 @@ Tech Stack:
     sqlite3
     -----------
 ```
-
-<table border="1">
+<center>
+<table border="1" width="50%">
     <tr>
         <th>Nama Script</th>
         <th>Kegunaan</th>
@@ -60,3 +60,4 @@ Tech Stack:
         <td>Menjalankan Server menggunakan file Javascript Production</td>
     </tr>
 </table>
+</center>

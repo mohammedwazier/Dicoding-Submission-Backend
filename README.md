@@ -61,3 +61,5 @@ Tech Stack:
     </tr>
 </table>
 </center>
+
+[![build](https://github.com/mohammedwazier/Dicoding-Submission-Backend/actions/workflows/automated.yml/badge.svg?branch=master)](https://github.com/mohammedwazier/Dicoding-Submission-Backend/actions/workflows/automated.yml)

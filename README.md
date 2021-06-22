@@ -12,9 +12,9 @@
 
 ## Objective Submission
 
-1. [POST] /books => 'Simpan Buku'
-2. [GET] /books => 'Melihat Semua Buku'
-3. [GET] /books/{bookId} => 'Melihat satu Buku'
+1. [POST] /books => 'Simpan Buku' [DONE]
+2. [GET] /books => 'Melihat Semua Buku' [DONE]
+3. [GET] /books/{bookId} => 'Melihat satu Buku' [DONE]
 4. [PUT] /books/{bookId} => 'Update 1 Buku'
 5. [DELETE] /books/{bookId} => 'Menghapus 1 Buku'
 
@@ -26,4 +26,3 @@ StatusCode
 200 => Sukses
 404 => Tidak Ditemukan
 ```
-

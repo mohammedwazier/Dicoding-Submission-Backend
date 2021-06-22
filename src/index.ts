@@ -1,11 +1,14 @@
-import { Server, Request, ResponseToolkit } from "@hapi/hapi";
+import { Server } from "@hapi/hapi";
 import { PORT } from './Config/index'
+import Buku from './Routes/Buku';
 
 const init = async () => {
     const server: Server = new Server({
         port: PORT,
         host: 'localhost'
     })
+
+    server.route(Buku)
 
     await server.start();
     console.log(`Server running on : ${server.info.uri}`)

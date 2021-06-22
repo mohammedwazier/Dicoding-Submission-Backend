@@ -1,7 +1,7 @@
 # Buku Submission Dicoding
 
 
-### Initiate Server
+### Initiate Server Running
 ```
     1. cp .env-example .env
     2. Fill the Variable on .env

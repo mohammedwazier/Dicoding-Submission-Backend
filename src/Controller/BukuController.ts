@@ -73,7 +73,6 @@ export const GetAllBuku = async (req: Request, h: ResponseToolkit) => {
     try {
         let books = await Books.findAll({
             attributes: ['id', 'name', 'publisher'],
-            raw: true,
             where: whereQuery
         });
         return h.response({

@@ -3,20 +3,20 @@ import Books from '../Model/model';
 import { nanoid } from 'nanoid'
 import { Op } from 'sequelize';
 
-let dataBuku = {
-    "id": "Qbax5Oy7L8WKf74l",
-    "name": "Buku A",
-    "year": 2010,
-    "author": "John Doe",
-    "summary": "Lorem ipsum dolor sit amet",
-    "publisher": "Dicoding Indonesia",
-    "pageCount": 100,
-    "readPage": 25,
-    "finished": false,
-    "reading": false,
-    "insertedAt": "2021-03-04T09:11:44.598Z",
-    "updatedAt": "2021-03-04T09:11:44.598Z"
-}
+// let dataBuku = {
+//     "id": "Qbax5Oy7L8WKf74l",
+//     "name": "Buku A",
+//     "year": 2010,
+//     "author": "John Doe",
+//     "summary": "Lorem ipsum dolor sit amet",
+//     "publisher": "Dicoding Indonesia",
+//     "pageCount": 100,
+//     "readPage": 25,
+//     "finished": false,
+//     "reading": false,
+//     "insertedAt": "2021-03-04T09:11:44.598Z",
+//     "updatedAt": "2021-03-04T09:11:44.598Z"
+// }
 
 export const SimpanBuku = async (req: Request, h: ResponseToolkit) => {
     const payload: any = req.payload;
